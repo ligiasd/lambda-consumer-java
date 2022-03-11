@@ -6,6 +6,10 @@
 • https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html  
 • Nota: ao contrário das outras interfaces funcionais, no caso do Consumer, é esperado ele possa gerar efeitos colaterais.  
 
+public interface Consumer<T> {  
+void accept(T t);  
+}  
+
 Operações intermediárias  
 • filter  
 • map  
